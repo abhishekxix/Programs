@@ -1,0 +1,4 @@
+Hey there!
+I am Abhishek Singh.
+This is the first file whose content will get copied in the second file.
+a e i o u.

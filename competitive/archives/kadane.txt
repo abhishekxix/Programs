@@ -1,0 +1,13 @@
+//for atleast one positive number(max sum subarray)
+for(auto &i : b) {
+        a = std::max(a + i, 0);
+        sum = std::max(a, sum);
+}
+
+
+//for all types of input(maximum sum non empty subarray)
+for(auto &i : b) {
+        a += i;
+        sum = std::max(a, sum);
+        a = std::max(a, 0);
+}

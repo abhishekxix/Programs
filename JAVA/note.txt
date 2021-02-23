@@ -1,0 +1,5 @@
+1. java files should have the same name as the class defined in it else the compilation will be unsuccessful.
+2. arrayname.length is the function to return the length of an array 
+3. System.out.print and System.out.println have the difference that the former prints everything in a single line while the
+latter prints it in different lines.
+4. In a 3D array, the first box is the number of pages , second for rows and third is columns
