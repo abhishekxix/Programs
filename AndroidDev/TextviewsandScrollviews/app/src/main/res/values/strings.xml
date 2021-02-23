@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TextviewsandScrollviews</string>
+    <string name="text_view">Go on and try to click this button.
+    You will get to know a secret.</string>
+    <string name="button_press_this">Press this button</string>
+    <string name="text_changed">You just clicked this button</string>
+</resources>

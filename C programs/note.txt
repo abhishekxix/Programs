@@ -1,0 +1,87 @@
+1. Donot put a terminator at the end of a macro declaration as it will lead to the generation of an error
+eg: #define pi 3.14; This is wrong statement and the use of the terminator should be avoided in this case.
+2. %p is the format specifier for the pointer variables.
+3. %04x is the format specifier for hexadecimal numbers.
+4. To use the functions of math.h in a c program. we have to type the following command to compile the source code :
+    gcc -o output -lm input.c 
+    This is used to link the math library with the executable file.
+5. The pre or post increment/decrement give the same execution in a for loop because the flow of control in a loop is like:
+    -> Check the condition.
+    -> Execute the statements.
+    -> increment/decrement.
+6. Difference between type function(void) and type function() is such that the former cannot be called by passing 
+   argument through it unlike the latter.
+7. \n and \t are called escape sequences.
+    Escape	Meaning
+    \\	Literal backslash
+    \"	Double quote
+    \'	Single quote
+    \n	Newline (line feed)
+    \r	Carriage return
+    \b	Backspace
+    \t	Horizontal tab
+    \f	Form feed
+    \a	Alert (bell)
+    \v	Vertical tab
+    \?	Question mark (used to escape trigraphs)
+    \nnn	Character with octal value nnn
+    \xhh	Character with hexadecimal value hh
+
+8. A null character is represented by '\0'. 
+9. system("clear") for linux and system("cls") for windows is a function that clears the console screen and is the part of the
+    stlib.h library.
+10. Wide character strings
+    C supports wide character strings, defined as arrays of the type wchar_t, 16-bit (at least) values. They are written with an L before the string like this
+
+    wchar_t *p = L"Hello world!";
+    This feature allows strings where more than 256 different possible characters are needed (although also variable length
+    char strings can be used). They end with a zero-valued wchar_t. These strings are not supported by the <string.h> functions. 
+    Instead they have their own functions, declared in <wchar.h>.
+    The basic functions are wprintf() and wscanf().
+
+11. #include <stdio.h>
+    #include <string.h>
+    #include <math.h>
+    #include <stdlib.h>
+
+    int main() 
+    { char ch, s[20],sen[20];
+    ch = getchar();
+    scanf("%s",&s);
+    scanf(" %[^\n]%*c",&sen);
+    printf("%c\n%s\n%s",ch,s,sen);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+    }
+
+12. The function atoi() in C converts a string to an integer.
+13. To input a value in an iterable statement always use scanf(" %format_specifier"). The space before the format specifier 
+    tells the compiler to ignore any newline entry(The enter keystroke that can cause problems in the code).
+    for example::
+
+        
+
+    When you enter a character and hit enter, character gets accepted by getchar() and when the loop starts again
+     \n is accepted because of the enter key you have given in the previous iteration,
+      so.... Everytime you enter a character and hit enter... two inputs are taken and thus, this behaviour is observed.
+       To overcome this, use
+
+    scanf(" %c",&grade);
+    Note : Here a space is given in front of %c to omit empty spaces
+
+    Instead of:
+
+        grade=getchar()
+    In the loop.
+
+    14. kbhit() function returns a non zero value when a key is pressed and a non zero value when no key is pressed.
+        It is a function of the conio.h header file.
+    
+    15. A static int variable is always implicitly initialised as 0.
+    16. (*n).number is similar to n->number;.
+
+    17. In a binary tree, every child node to the left of a parent node is smaller than the parent node, and the right one is larger than the parent.
+    
+    18. The root is the beginning of a binary tree.
+    19. Binary trees are a recursive data structure.

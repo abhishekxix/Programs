@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ExplicitIntents</string>
+    <string name="activity_main_title">Explicit Intent</string>
+    <string name="main_change_activity">Change Activity</string>
+    <string name="activity_second_title">This is the second activity.</string>
+    <string name="main_edit_hint">Enter your data here.</string>
+    <string name="invalid_input">Invalid input.</string>
+</resources>

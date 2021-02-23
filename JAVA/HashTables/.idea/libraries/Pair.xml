@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Pair">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Pair/out/artifacts/Pair_jar/Pair.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,17 @@
+1. Make a class account holder to store bank customer's name, address, balance,
+   account type. Throw an exception if the minimum balance in the account is 
+   less than 5000.
+
+
+2. WAP to accept username and password. Throw an exception if the password is less than 6 characters long or The password
+   doesn't contain a digit.
+
+3. Create a class Matrix. Overload the operator +=. Throw an exception if the rows and columns of both the matrices 
+   are not equal.
+
+
+4. WAP that throws an exception if the candidate is not eligible for B.Tech. (Uses class and Inheritance).
+
+
+5. WAP that throws a named class object when an out of bound exception is raised.The program also throws an exception
+   when the number of elements in the array are less than 0 or greater than max_size.

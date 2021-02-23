@@ -1,0 +1,11 @@
+CREATE DATABASE university;
+USE university;
+
+CREATE TABLE student (
+    name_first VARCHAR(30),
+    name_last VARCHAR(30),
+    roll_no INT, 
+    address VARCHAR(100),
+    
+);
+    

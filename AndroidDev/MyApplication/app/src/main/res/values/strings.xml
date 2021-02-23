@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">Hello World</string>
+    <string name="message_in_the_app" translatable="false">This is a simple application</string>
+</resources>

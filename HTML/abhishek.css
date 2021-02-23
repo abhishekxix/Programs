@@ -1,0 +1,26 @@
+h1, header {
+    font-style: italic;
+    text-align: center;
+    margin-left: 0% !important;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.75555);
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;    
+    font-size: 105%;
+    line-height: 200%;
+}
+
+main, footer {
+    margin-left: 3%;
+}
+
+a {
+    color: #ffffff;
+    font-style: normal !important;
+}
+
+h2 {
+    font-style: italic;
+}

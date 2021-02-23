@@ -1,0 +1,5 @@
+by=input('Birth year ')
+print(type(by))
+age= 2019-int(by)
+print(type(age))
+print("your age is " + str(age))

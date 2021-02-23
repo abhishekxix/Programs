@@ -1,0 +1,17 @@
+int search(node* tree, inr n)
+{
+    if(tree == NULL)
+    {
+        return 0;
+    }
+    else if(n < tree->number)
+    {
+        return search(tree->left,n);
+    }
+    else if(n > tree->number)
+    {
+      return search(tree->right, n);  
+    }
+
+    else return 0;
+}
